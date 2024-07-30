@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hope</title>
+        <link rel="shortcut icon" href="./img//Hope.jpeg" type="image/x-icon">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    </head>
+    <body>
+        <nav
+            class="flex justify-between items-center px-6 md:px-16 bg-white shadow fixed h-16 md:h-20 w-full z-10">
+            <a href="index.html" class="flex items-end gap-1">
+                <img src="./img/Hope.jpeg" class="h-12" alt="Hope Logo" />
+                <h1 class="text-2xl font-black">OPE</h1>
+            </a>
+
+            <div class="hidden md:flex gap-12 font-semibold md:pr-12">
+                <a href="index.html" class="text-yellow-500">Home</a>
+                <a href="about.html">About Hope</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="#">Blog</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="md:hidden">
+                <button id="menu-btn" class="focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <div class="w-full h-16"></div>
+
+        <div id="menu"
+            class="hidden md:hidden fixed right-0 flex flex-col gap-4 mt-4 px-12 font-semibold rounded-md pb-4 bg-white shadow-lg">
+            <a href="index.html" class="text-yellow-500">Home</a>
+            <a href="about.html">About Hope</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blogs.html">Blog</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <!-- hero section  -->
+        <section style="background-image: url('./img/home.jpg');"
+            class="w-full h-[550px] bg-center overflow-x-hidden lg:pl-24">
+            <div class="w-full h-full flex flex-col justify-center px-10">
+                <h1 class="text-white text-[65px] font-black lg:w-[450px]">Hope
+                    for <span class="text-yellow-500">Humanity</span></h1>
+                <p class="text-white font-semibold">GIVE A HELPING HAND TO THOSE
+                    WHO NEED IT !</p>
+                <div class="flex gap-8">
+                    <a href="#about"
+                        class="px-5 py-2 rounded-lg bg-white font-semibold mt-6">Get
+                        Started</a>
+                    <a href="#donate"
+                        class="px-5 py-2 rounded-lg bg-yellow-500 font-semibold mt-6">Donate
+                        Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- sponsers -->
+        <section class="grid grid-cols-4 h-32 gap-4 md:pl-8 lg:pl-36">
+            <img src="./img/sponser1.jpeg" class="mt-6 md:w-[90px]" />
+            <img src="./img/sponser2.jpeg" class="mt-6 md:w-[90px]" />
+            <img src="./img/sponser3.jpeg" class="mt-6 md:w-[90px]" />
+            <img src="./img/sponser4.jpeg" class="mt-6 md:w-[90px]" />
+        </section>
+
+        <!-- What we do  -->
+        <section id="about"
+            class="flex w-full flex-col md:flex-row bg-black/5 gap-8 lg:gap-0 py-6 md:py-24 md:items-center">
+            <div class="w-full px-10 md:px-32">
+                <h2 class="text-5xl font-bold md:w-[350px]">Story About <span
+                        class="text-yellow-500">What We
+                        Do</span></h2>
+                <p class="text-black/60 text-sm mt-3">Since the very beginning
+                    Hope Joomla theme has been about
+                    one thing: improving the lives of others by any means. From
+                    design,
+                    solutions and support, everything we do aims to help
+                    those who have limited resources.</p>
+                <button
+                    class="px-5 py-2 md:py-4 md:px-7 rounded-lg bg-black font-semibold mt-6 text-sm text-white">Know
+                    More</button>
+            </div>
+            <div class="w-full flex flex-col gap-8 md:px-16">
+                <div class="flex">
+                    <div class="w-full flex flex-col items-center">
+                        <div
+                            class="bg-white p-3 rounded-full flex items-center justify-center">
+                            <img src="./img/svg/legacy.svg" class="w-12 h-12" />
+                        </div>
+                        <h2 class="font-semibold">Leave a legacy</h2>
+                        <p class="px-4 mt-2 text-xs text-center">Create an
+                            enduring legacy by inspiring hope and compassion in
+                            humanity.</p>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div
+                            class="bg-white p-3 rounded-full flex items-center justify-center">
+                            <img src="./img/svg/donation.svg"
+                                class="w-12 h-12" />
+                        </div>
+                        <h2 class="font-semibold">Make Donation</h2>
+                        <p class="px-4 mt-2 text-xs text-center">Make a donation
+                            today and be a beacon of hope for a brighter
+                            future.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="w-full flex flex-col items-center">
+                        <div
+                            class="bg-white p-3 rounded-full flex items-center justify-center">
+                            <img src="./img/svg/fundriser.svg"
+                                class="w-12 h-12" />
+                        </div>
+                        <h2 class="font-semibold">Become a Fundraiser</h2>
+                        <p class="px-4 mt-2 text-xs text-center">Become a
+                            fundraiser and help ignite change for a better
+                            tomorrow.</p>
+                    </div>
+                    <div class="w-full flex flex-col items-center">
+                        <div
+                            class="bg-white p-3 rounded-full flex items-center justify-center">
+                            <img src="./img/svg/volunteer.svg"
+                                class="w-12 h-12" />
+                        </div>
+                        <h2 class="font-semibold">Become a Volunteer</h2>
+                        <p class="px-4 mt-2 text-xs text-center">Become a
+                            volunteer and make a meaningful impact in your
+                            community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- donation section  -->
+        <section id="donate" class="mb-20">
+            <div class="flex items-center justify-center">
+                <div
+                    class="container flex flex-col py-10 px-8 gap-10 md:flex-row md:items-center">
+
+                    <img src="./img/important-event.jpg"
+                        alt="Description of image"
+                        class="md:w-[350px] lg:w-[450px] rounded-lg shadow-lg">
+
+                    <div class="content">
+
+                        <h1 class="font-bold text-5xl py-4 md:w-[450px]">An
+                            Important Event <span class="text-yellow-500">for
+                                Charity</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.
+                            Iusto, amet magnam eum dicta libero commodi
+                            consequatur
+                            ut corporis laudantium cupiditate nesciunt nostrum
+                            odio
+                            culpa vero, esse, unde rerum! Corporis,
+                            doloribus.</p>
+
+                        <div>
+                            <button
+                                class="border-2 px-4 md:px-7 py-1 mt-5 rounded-lg hover:bg-gray-300 hover:border-gray-300"
+                                onclick="openModal('₹10')">₹10</button>
+                            <button
+                                class="border-2 px-4 md:px-7 py-1 mt-5 rounded-lg hover:bg-gray-300 hover:border-gray-300"
+                                onclick="openModal('₹50')">₹50</button>
+                            <button
+                                class="border-2 px-4 md:px-7 py-1 mt-5 rounded-lg hover:bg-gray-300 hover:border-gray-300"
+                                onclick="openModal('₹100')">₹100</button>
+                            <button
+                                class="border-2 px-4 md:px-7 py-1 mt-5 rounded-lg hover:bg-gray-300 hover:border-gray-300"
+                                onclick="openModal('More')">More</button>
+                        </div>
+
+                        <button
+                            class="donate-now bg-black text-white px-7 py-2 mt-5 rounded-lg hover:bg-black/80"
+                            onclick="openModal('Donate Now')">Donate
+                            Now</button>
+                    </div>
+
+                </div>
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p id="modal-text"></p>
+                        <img id="qr-code" src alt="QR Code" class="qr-code">
+                    </div>
+                </div>
+
+                <script src="./script.js"></script>
+
+            </div>
+        </section>
+
+        <!-- Blog Section  -->
+        <section class="mb-20">
+            <div class="w-full">
+                <div class="content">
+                    <div class="flex flex-col items-center w-full">
+                        <h1 class="text-5xl font-bold">Featured <span
+                                class="text-yellow-500">Causes</span></h1>
+                        <p class="intro-text mt-2 px-4 text-center">In just a
+                            short amount of time we
+                            have
+                            already had a staggering and truly heartwarming
+                            amount
+                            of success.
+                        </p>
+                    </div>
+
+                    <br />
+
+                    <div class="image-container">
+
+                        <div class="box">
+
+                            <img
+                                src="./img/img11.jpeg"
+                                alt="Description of image"
+                                class="featured-image">
+                            <div class="text-content">
+                                <h3 class="font-bold">Addressing Poverty Through Food Security: A Global Imperative</h3>
+                                <p>Poverty remains one of the most pressing challenges facing our world today, affecting millions of people and hindering global progress. At its core, poverty is often characterized by a lack of access to basic necessities, with food security being a critical component. In this blog, we will explore the intricate relationship between poverty and food security, and why addressing this issue is paramount to alleviating poverty on a global scale.</p>
+                                <a href="./blogs/blog1.html" class="read-more">Read
+                                    More &rarr;</a>
+
+                            </div>
+                        </div>
+
+                        <div class="box">
+
+                            <img
+                                src="./img/img1.jpg"
+                                alt="Description of image"
+                                class="featured-image">
+                            <div class="text-content">
+                                <h3 class="font-bold">Breaking the Cycle of Poverty: The Role of Education in Empowering Communities</h3>
+                                <p>Poverty remains a pervasive issue globally, affecting millions of individuals and communities. One of the most powerful tools to combat poverty is education. By providing quality education, we can empower individuals, improve economic opportunities, and foster sustainable development. This blog will explore how education can break the cycle of poverty and the steps needed to ensure that everyone has access to this critical resource.</p>
+                                <a href="./blogs/blog2.html" class="read-more">Read
+                                    More &rarr;</a>
+                            </div>
+                        </div>
+
+                        <div class="box">
+
+                            <img
+                                src="./img/img8.jpeg"
+                                alt="Description of image"
+                                class="featured-image">
+                            <div class="text-content">
+                                <h3 class="font-bold">Microfinance: A Pathway to Alleviating Poverty</h3>
+                                <p>Poverty remains a critical issue that affects millions of people around the world, particularly in developing countries. Traditional financial systems often fail to reach the most vulnerable populations, leaving them without access to the resources needed to improve their economic standing. Microfinance has emerged as a powerful tool to bridge this gap, offering financial services to those who are typically excluded from the conventional banking sector. This blog will explore how microfinance can be a pathway to alleviating poverty, empowering individuals, and fostering sustainable development.</p>
+                                <a href="./blogs/blog3.html" class="read-more">Read
+                                    More &rarr;</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- counting effect  -->
+        <section class="w-full py-8 text-white bg-repeat"
+            style="background-image: url('./img/home-animated-counter-bg.jpg');">
+            <div
+                class="flex flex-col md:flex-row items-center md:justify-center gap-8 lg:gap-44">
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="count text-4xl font-bold text-yellow-500"
+                        data-target="80">0</div>
+                    <div>Donation</div>
+                </div>
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="count text-4xl font-bold text-yellow-500"
+                        data-target="10">0</div>
+                    <div>Volunteers</div>
+                </div>
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="count text-4xl font-bold text-yellow-500"
+                        data-target="20">0</div>
+                    <div>Rescued</div>
+                </div>
+                <div class="flex flex-col gap-3 items-center">
+                    <div class="count text-4xl font-bold text-yellow-500"
+                        data-target="1">0</div>
+                    <div>Countries</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- volunteer section  -->
+        <section
+            class="bg-yellow-500 py-10 flex flex-col w-full items-center gap-3">
+            <h2 class="text-3xl md:text-5xl font-bold">Become a Volunteer</h2>
+            <p class="font-semibold md:text-xl">Join us for a better life and
+                beautiful future</p>
+            <a href="volenteer.html"
+                class="px-8 py-3 bg-black rounded-lg text-white hover:bg-black/80">Join
+                Now</a>
+        </section>
+
+        <!-- footer  -->
+        <footer class="w-full bg-black text-white">
+            <div
+                class="flex justify-around items-center gap-8 py-10 px-4 md:px-16">
+                <div class="flex flex-col gap-3">
+                    <div class="flex items-end gap-1 cursor-pointer">
+                        <img src="./img/Hope.jpeg" class="w-8 rounded-lg" />
+                        <h2 class="text-5xl font-black">OPE</h2>
+                    </div>
+                    <p class="font-semibold text-yellow-500">Give a helping hand
+                        to those who
+                        need it!!</p>
+                </div>
+                <div>
+
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h2 class="font-semibold text-xl">Contact <span
+                            class="text-yellow-500">Us</span></h2>
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/"
+                            target="_blank"><i class="fa-brands fa-facebook"
+                                style="color: #74C0FC;"></i></a>
+                        <a href="https://x.com/" target="_blank"><i
+                                class="fab fa-twitter"
+                                style="color: #1DA1F2;"></i></a>
+                        <a href="https://www.google.co.in/"
+                            target="_blank"><i class="fa-brands fa-google"
+                                style="color: #4285F4;"></i></a>
+                        <a href="https://www.instagram.com/"
+                            target="_blank"><i class="fab fa-instagram"
+                                style="color: #fd1d1d;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="/script.js"></script>
+        <script>
+            
+        document.addEventListener('DOMContentLoaded', () => {
+            const counts = document.querySelectorAll('.count');
+            const speed = 200;
+
+            counts.forEach(counter => {
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-target');
+                    const count = +counter.innerText;
+
+                    const inc = target / (speed / (target < 10 ? 10 : 1));
+
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + inc);
+                        setTimeout(updateCount, 30);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+
+                updateCount();
+            });
+        });
+
+        </script>
+    </body>
+</html>
