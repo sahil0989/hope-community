@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hope</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="shortcut icon" href="./img//Hope.jpeg" type="image/x-icon">
+    <script
+      src="https://kit.fontawesome.com/43e43746e6.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+
+    <nav
+      class="flex justify-between items-center px-6 md:px-16 bg-white shadow fixed h-16 md:h-20 w-full z-10">
+      <a href="index.html" class="flex items-end gap-1">
+        <img src="./img/Hope.jpeg" class="h-12" alt="Hope Logo" />
+        <h1 class="text-2xl font-black">OPE</h1>
+      </a>
+
+      <div class="hidden md:flex gap-12 font-semibold md:pr-12">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Hope</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="blogs.html">Blog</a>
+        <a href="contact.html" class="text-yellow-500">Contact Us</a>
+      </div>
+
+      <div class="md:hidden">
+        <button id="menu-btn" class="focus:outline-none">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+    <div class="w-full h-16"></div>
+
+    <div
+      class="bg-cover flex justify-center items-center w-full h-[250px] md:h-[350px] text-white"
+      style="background-image: url('./img/page-title-bg.jpg');">
+      <div class="font-black text-[60px] md:text-[80px]">Contact</div>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2 class="text-4xl font-bold">Contact <span
+            class="text-yellow-500">Info</span></h2>
+        <p class="py-3">
+          You have just invested in a new vehicle, the one of your dreams, and
+          you take it.
+        </p>
+        <div class="flex flex-col gap-3">
+          <div class="flex items-center gap-3">
+            <i class="fa-solid fa-envelope"></i>
+            <strong>Email</strong>
+          </div>
+          <p>getintuch@hope.com</p>
+        </div>
+        <div>
+          <div class="flex gap-3 items-center py-2">
+            <i class="fa-solid fa-phone"></i>
+            <strong>Phone</strong>
+          </div>
+          <p>xxxxxxxxxx</p>
+        </div>
+        <div>
+          <div class="flex gap-3 items-center py-2">
+            <i class="fa-solid fa-location-dot"></i>
+            <strong>Address</strong>
+          </div>
+          <p>2781 Morningview Lane, New Delhi, NY 10011</p>
+        </div>
+      </div>
+      <div class="feedback-form">
+        <h2 class="text-4xl font-bold mb-5">Send us your <span
+            class="text-yellow-500">Feedback</span></h2>
+        <div>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            class="in" /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="in" /><br />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            class="in" /><br />
+          <textarea name="message" rows="5" placeholder="Message"
+            class></textarea><br />
+          <button type="submit" class="bg-yellow-500">Send Message</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w-full bg-black text-white">
+      <div class="flex justify-around items-center gap-8 py-10 px-4 md:px-16">
+        <div class="flex flex-col gap-3">
+          <a href="/index.html" class="flex items-end gap-1 cursor-pointer">
+            <img src="./img/Hope.jpeg" class="w-8 rounded-lg" />
+            <h2 class="text-4xl font-black text-white">OPE</h2>
+          </a>
+          <p class="font-semibold text-yellow-500">Give a helping hand to those
+            who
+            need it!!</p>
+        </div>
+        <div>
+
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <h2 class="font-semibold text-xl text-white">Contact <span
+              class="text-yellow-500">Us</span></h2>
+          <div class="flex gap-4">
+            <a href="https://www.facebook.com/"
+              target="_blank"><i class="fa-brands fa-facebook"
+                style="color: #74C0FC;"></i></a>
+            <a href="https://x.com/" target="_blank"><i
+                class="fab fa-twitter"
+                style="color: #1DA1F2;"></i></a>
+            <a href="https://www.google.co.in/"
+              target="_blank"><i class="fa-brands fa-google"
+                style="color: #4285F4;"></i></a>
+            <a href="https://www.instagram.com/"
+              target="_blank"><i class="fab fa-instagram"
+                style="color: #fd1d1d;"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="menu"
+      class="hidden md:hidden fixed top-2 right-0 flex flex-col gap-4 mt-16 px-12 font-semibold rounded-md pb-4 bg-white shadow-lg">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Hope</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="blogs.html">Blog</a>
+      <a href="contact.html" class="text-yellow-500">Contact Us</a>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
