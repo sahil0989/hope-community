@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hope</title>
+        <link rel="shortcut icon" href="./img//Hope.jpeg" type="image/x-icon">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+
+        <nav
+            class="flex justify-between items-center px-6 md:px-16 bg-white shadow fixed h-16 md:h-20 w-full z-10">
+            <a href="index.html" class="flex items-end gap-1">
+                <img src="./img/Hope.jpeg" class="h-12" alt="Hope Logo" />
+                <h1 class="text-2xl font-black">OPE</h1>
+            </a>
+
+            <div class="hidden md:flex gap-12 font-semibold md:pr-12">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="text-yellow-500">About Hope</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="md:hidden">
+                <button id="menu-btn" class="focus:outline-none">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+        </nav>
+
+        <div id="menu"
+            class="hidden md:hidden fixed top-2 right-0 flex flex-col gap-4 mt-16 px-12 font-semibold rounded-md pb-4 bg-white shadow-lg">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="text-yellow-500">About Hope</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="w-full h-16"></div>
+
+        <div>
+            <div style="background-image: url('./img/page-title-bg.jpg');"
+                class="header bg-cover flex justify-center items-center w-full h-[250px] md:h-[350px]">
+                <div
+                    class="font-black text-[60px] md:text-[80px] text-white">About
+                    Hope</div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row my-10 lg:items-center">
+                <div class="lg:w-[50%] w-full lg:px-16 px-7">
+                    <h2 class="font-bold text-5xl lg:text-7xl">We are non Profit
+                        <span
+                            class="text-yellow-500">Team</span></h2>
+                    <p class="text-black/50 py-6">We’re passionate about
+                        creating sustainable solutions for those less fortunate,
+                        using private donations to fund our projects, and
+                        sharing the true life changing stories that were made
+                        possible by your support.</p>
+                </div>
+                <div class="lg:w-[50%] flex items-center justify-center">
+                    <img src="./img/about-01.jpg" alt="image"
+                        class="h-[350px] lg:h-[550px]" />
+                </div>
+            </div>
+
+            <div class="flex flex-col-reverse lg:flex-row my-10 items-center">
+                <div
+                    class="w-full lg:w-[50%] px-7 flex items-center justify-center">
+                    <img src="./img/about-02.jpg" alt="image"
+                        class="h-[350px] lg:h-[550px]" />
+                </div>
+                <div class="w-full lg:w-[50%] px-7 lg:px-16">
+                    <h2 class="font-bold text-[45px] lg:text-7xl">We have a
+                        strong <span
+                            class="text-yellow-500">Mission</span></h2>
+                    <p class="text-black/50 py-6">We currently have projects in
+                        20 locations, delivered by 10 volunteers.
+                        Our main focus is to provide rural communities with a
+                        safe and sustainable way of life.</p>
+
+                    <p class="text-black/50 pb-10"> Clean water, healthcare,
+                        poverty, political stability,
+                        books for children and partner NGO organization’s all
+                        contribute to where we can offer our support.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-10">
+            <h2 class="text-5xl font-bold my-4">Our <span
+                    class="text-yellow-500">Team</span></h2>
+
+            <div class="grid grid-cols-2 md:grid-cols-4">
+                <div class="flex flex-col items-center gap-3">
+                    <img src="./img/team/member1.png"
+                        class="w-24 h-24 rounded-full object-cover border-black border-2 shadow-md" />
+                    <p class="font-semibold">SAHIL</p>
+                    <div class="flex">
+
+                    </div>
+                </div>
+                <div class="flex flex-col items-center gap-3">
+                    <img src="./img/team/member2.JPG"
+                        class="w-24 h-24 rounded-full object-cover border-black border-2 shadow-md" />
+                    <p class="font-semibold">ARJU SINGH</p>
+                    <div class="flex">
+
+                    </div>
+                </div>
+                <div class="flex flex-col items-center gap-3">
+                    <img src="./img/team/member3.jpg"
+                        class="w-24 h-24 rounded-full object-cover border-black border-2 shadow-md" />
+                    <p class="font-semibold">KOMAL</p>
+                    <div class="flex">
+
+                    </div>
+                </div>
+                <div class="flex flex-col items-center gap-3">
+                    <img src="./img/team/member4.jpg"
+                        class="w-24 h-24 rounded-full object-cover border-black border-2 shadow-md" />
+                    <p class="font-semibold">SUNITI</p>
+                    <div class="flex">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="w-full bg-black text-white mt-10">
+            <div
+                class="flex justify-around items-center gap-8 py-10 px-4 md:px-16">
+                <div class="flex flex-col gap-3">
+                    <a href="/index.html"
+                        class="flex items-end gap-1 cursor-pointer">
+                        <img src="./img/Hope.jpeg" class="w-8 rounded-lg" />
+                        <h2 class="text-5xl font-black">OPE</h2>
+                    </a>
+                    <p class="font-semibold text-yellow-500">Give a helping hand
+                        to those who
+                        need it!!</p>
+                </div>
+                <div>
+
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h2 class="font-semibold text-xl">Contact <span
+                            class="text-yellow-500">Us</span></h2>
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/"
+                            target="_blank"><i class="fa-brands fa-facebook"
+                                style="color: #74C0FC;"></i></a>
+                        <a href="https://x.com/" target="_blank"><i
+                                class="fab fa-twitter"
+                                style="color: #1DA1F2;"></i></a>
+                        <a href="https://www.google.co.in/"
+                            target="_blank"><i class="fa-brands fa-google"
+                                style="color: #4285F4;"></i></a>
+                        <a href="https://www.instagram.com/"
+                            target="_blank"><i class="fab fa-instagram"
+                                style="color: #fd1d1d;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+
+    </body>
+</html>
